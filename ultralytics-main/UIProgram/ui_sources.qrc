@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>C:/Users/96443/Desktop/YOLO11/ultralytics-main/UIProgram/ui_imgs/windowimage.png</file>
+    <file>C:/Users/96443/Desktop/YOLO11/ultralytics-main/UIProgram/ui_imgs/icon.png</file>
+    <file>C:/Users/96443/Desktop/YOLO11/ultralytics-main/UIProgram/ui_imgs/file-excel.png</file>
+    <file>C:/Users/96443/Desktop/YOLO11/ultralytics-main/UIProgram/ui_imgs/logout.png</file>
+<!--    <file>ui_imgs/icons/camera.png</file>-->
+    <file>C:/Users/96443/Desktop/YOLO11/ultralytics-main/UIProgram/ui_imgs/folder-plus.png</file>
+    <file>C:/Users/96443/Desktop/YOLO11/ultralytics-main/UIProgram/ui_imgs/add-pic.png</file>
+<!--    <file>ui_imgs/icons/video.png</file>-->
+  </qresource>
+  <qresource prefix="bgs"/>
+</RCC>

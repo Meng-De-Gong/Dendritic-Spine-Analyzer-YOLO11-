@@ -1,0 +1,22 @@
+/* QGroupBox 样式 */
+QGroupBox {
+    border: 2px solid gray;
+}
+
+/* 统一按钮样式 */
+QPushButton#SaveBtn, QPushButton#ExitBtn, QPushButton#SaveExcelBtn {
+    color: black;
+    background-color: rgb(219, 144, 38);
+    border-radius: 6px;
+}
+
+/* 按钮悬停效果 */
+QPushButton:hover {
+    color: red;
+}
+
+/* 按钮按下效果 */
+QPushButton:pressed {
+    background-color: rgb(180, 180, 180);
+    border: 1px solid transparent;
+}

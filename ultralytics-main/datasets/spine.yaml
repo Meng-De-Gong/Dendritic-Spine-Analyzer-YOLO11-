@@ -1,0 +1,9 @@
+
+train: C:\Users\96443\Desktop\YOLO11\ultralytics-main\datasets\spine_train\images
+val: C:\Users\96443\Desktop\YOLO11\ultralytics-main\datasets\spine_val\images
+test: C:\Users\96443\Desktop\YOLO11\ultralytics-main\datasets\spine_test\images
+
+# number of classes
+nc: 5
+# class names
+names: [ 'M','S', 'B', 'T', 'F' ]

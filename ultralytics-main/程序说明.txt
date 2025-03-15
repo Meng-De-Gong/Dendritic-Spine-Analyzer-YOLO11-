@@ -1,0 +1,60 @@
+--------------项目简介--------------
+本项目基于yolo11深度学习，使用pyqt5制作界面，
+可实现树突棘的识别，分类及计数等功能。
+
+
+软件开发环境:python3.9
+系统界面开发：pyqt5
+
+-----------项目相关文件说明-----------
+datasets文件夹作为yolo11训练时的数据文件(数据集)。
+其中包括spines_train(训练集)、spines_val(验证集)、spine_test(测试集)
+以及相关的.yaml文件
+
+runs文件夹作为存储训练和预测过程中模型权重、模型评估等文件的目录。
+其中包括train(训练)和detect(预测)文件夹。
+权重文件使用runs\train\exp2\weights\best.pt
+
+save_data文件夹是运行界面时存储文件地址
+
+Testdata文件夹是测试项目的树突棘图片文件夹
+
+UIProgram文件夹包含pyqt5制作的各种UI界面程序
+
+Config.py文件是树突棘图片检测的配置程序
+
+detect.py文件是yolo11的预测程序
+
+detect_tools.py文件用于处理树突棘识别分类的标注。
+
+MainProgram.py文件为运行主程序。####运行它，开启界面。
+
+requirements.txt文件为环境配置文本。
+
+train.py为模型训练代码。
+
+
+
+##########安装依赖库##########
+⚪用pycharm打开MainProgram.py，点击<终端>，在<本地>下输入以下命令
+pip install -r requirements.txt -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+⚪若安装不成功，考虑更换pip源，以下为华为源/中科大源/豆瓣源
+pip install -r requirements.txt -i https://pypi.huaweicloud.com/simple/
+pip install -r requirements.txt-i https://pypi.mirrors.ustc.edu.cn/simple/
+pip install -r requirements.txt-i https://pypi.douban.com/simple/
+⚪仍安装不成功，可考虑手动安装，进去其中一个源网站，下载所需依赖库。
+pip install 包名
+详细可参见https://www.cnblogs.com/caoqh/p/10728083.html
+
+成功后，便可运行主程序。
+
+---------------模型训练---------------
+⚪ultralytics-main\datasets\spine.yaml文件在pycharm中打开，
+改变[train:  ]; [val:  ]; [test:  ]的路径为自己数据集所在的绝对路径。
+⚪ultralytics-main\train.py文件在pycharm中打开，
+改变以下绝对路径
+model = YOLO(model=r'') ##datasets下的yolo11l.yaml的绝对路径（有yolo11.yaml，可写为yolo11l/m/n/s/x.yaml，与电脑性能相关）
+model.train(data=r'')  ##datasets下的spine.yaml的绝对路径
+
+运行train.py文件即可开始进行模型训练，训练结果会默认保存在runs/detect中
+训练后，权重文件使用runs\train\exp某\weights\best.pt即可。
