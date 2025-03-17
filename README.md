@@ -64,8 +64,9 @@ This is the **main program**.
 ---
 
 ### 📋 **requirements.txt**  
-This file lists the required dependencies and environment configurations.  
-To install the required dependencies, run the following command:  
+This file lists the required dependencies and environment configurations.
+
+👉 To install the required dependencies, run the following command:  
 `pip install -r requirements.txt`
 
 ---
