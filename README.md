@@ -5,7 +5,7 @@
     <a href="./README_CN.md"><strong>简体中文</strong></a>
 </h2>
 
-You can download the software from the Releases section on the right sidebar:  
+You can download the software from the **Releases** section on the right sidebar or **click the link** below:  
 
 <p align="center">  
     👉 <a href="https://github.com/Meng-De-Gong/Dendritic-Spine-Analyzer-YOLO11-/releases/tag/v1.0.1"><strong>GUI-DendriticSpineClassification v1.0.1</strong></a>  
