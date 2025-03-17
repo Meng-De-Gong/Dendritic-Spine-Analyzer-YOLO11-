@@ -5,6 +5,14 @@
     <a href="./README_CN.md"><strong>简体中文</strong></a>
 </h2>
 
+您可以从右侧边栏的**releases**部分下载软件，或点击如下**链接**
+
+<p align="center">  
+    👉 <a href="https://github.com/Meng-De-Gong/Dendritic-Spine-Analyzer-YOLO11-/releases/tag/v1.0.1"><strong>GUI-DendriticSpineClassification v1.0.1</strong></a>  
+</p>
+
+---
+
 ##  项目概述
 该项目基于最前沿的 YOLO11 目标检测框架开发，侧重于树突棘形态的自动识别和分类。
 
