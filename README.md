@@ -1,7 +1,7 @@
 # Dendritic-Spine-Analyzer-YOLO11  
 
 <h2 align="center">
-    <a href="./readme.md"><strong>English</strong></a> | 
+    <a href="./README.md"><strong>English</strong></a> | 
     <a href="./readme_CN.md"><strong>简体中文</strong></a>
 </h2>
 
