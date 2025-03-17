@@ -33,7 +33,7 @@ The save_data folder is used to store files generated while running the UI opera
 ---
 
 ### 📂 **Testdata**  
-This folder contains dendritic spine image files used for testing.  
+This folder contains dendritic spine image files used for testing in the UI.
 
 ---
 
@@ -65,6 +65,8 @@ This is the **main program**.
 
 ### 📋 **requirements.txt**  
 This file lists the required dependencies and environment configurations.  
+To install the required dependencies, run the following command:  
+`pip install -r requirements.txt`
 
 ---
 
